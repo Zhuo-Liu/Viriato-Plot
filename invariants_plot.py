@@ -1,6 +1,11 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
+def read_invariants(f_path):
+    f = open(f_path)
+    names = f.readline().split()
+
+
 f = open('./gm10_invariants.dat')
 f2 = open('./gm10_2_invariants.dat')
 
